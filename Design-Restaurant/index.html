@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--  Start Lien du fichier Bootstrap -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- End Lien du fichier Bootstrap -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Start lien du font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- End lien du font-awesome -->
+  <title>Restaurant</title>
+</head>
+
+<body></body>
+<!-- Start  navbar -->
+<nav class="cc-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100 ">
+  <div class="container">
+    <a class="navbar-brand text-uppercase fw-bolder mx-4 py-3" href="#">Restaurant</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item pe-4">
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item pe-4">
+          <a class="nav-link" href="#">Découvrir</a>
+        </li>
+
+        <li class="nav-item pe-4">
+          <a class="nav-link" href="#">Classiques</a>
+        </li>
+        <li class="nav-item pe-4">
+          <a class="btn btn-order round-0" href="#">Passer une commande</a>
+        </li>
+
+    </div>
+  </div>
+</nav>
+<!-- End  navbar -->
+<!-- Start section banner -->
+<section class="banner pt-5 d-flex justify-content-center align-items-center">
+  <div class="container my-5 py-5">
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6">
+        <h1 class="text-capitalize py-3 police2 banner-desc">Restaurant multi-saveurs <br>à votre gout dans la ville de
+          Goma</h1>
+        <p>
+          <buton class="btn btn-order round-0  me-5 police1 btn-lg">Commander maintenant</buton>
+          <buton class="btn btn-outline-info round-0 police1 btn-lg">Reserver</buton>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End section banner-->
+<!-- start section avaible -->
+<section class="available police1 py-5">
+  <div class="container">
+    <div class="row">
+      <div class="card mb-3 border-0 round-0">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/Img/pexels-pixabay-262978.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><a href="#" class="text-muted btn">Last updated 3 mins ago</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 border-0 round-0">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><a href="#" class="text-muted btn">Last updated 3 mins ago</a></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/Img/pexels-prem-pal-singh-tanwar-602750.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/Img/istockphoto-617364554-612x612.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/Img/pexels-rdne-stock-project-7564194.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card my-5 border-0 round-0">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/Img/sky.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><a href="#" class="text-muted btn">Last updated 3 mins ago</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end section avaible -->
+<!-- start section menu  -->
+
+<!-- end section menu  -->
+<section class="cc-menu py-5 police1 mb-4">
+  <div class="container">
+    <div class="row">
+      <h3 class="text-center text-light police1">Nos varietés</h3>
+      <div class="card bg-transparent text-center">
+        <div class="card-header police2 fs-4">
+          <ul class="nav nav-tabs justify-content-center card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="true" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card ">
+          <img src="assets/Img/pexels-pixabay-262978.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text text-dark">This is a longer card with supporting text below as a natural lead-in to
+              additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="assets/Img/2berg.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text text-dark ">This is a longer card with supporting text below as a natural lead-in to
+              additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-sm-none d-md-block">
+        <div class="card">
+          <img src="assets/Img/person.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text text-dark">This is a longer card with supporting text below as a natural lead-in to
+              additional
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-sm-none d-md-block">
+        <div class="card">
+          <img src="assets/Img/sky.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text text-dark">This is a longer card with supporting text below as a natural lead-in to
+              additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- start section cc-caroussel -->
+<section class="cc-caroussel police1 bg-dark text-light text-center py-5">
+  <div class="container">
+    <div class="row">
+      <h1 class="text-uppercase">les delices interdits</h1>
+      <div class="col pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tenetur deserunt dolor
+        provident omnis quo similique tempore quod reiciendis quidem et, minima, perferendis error, veniam ullam illo
+        voluptatem fugit? Sed!</div>
+    </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/Img/2berg.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/Img/pexels-life-of-pix-67468.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/Img/person.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+<!-- end section cc-caroussel -->
+<!-- start section form -->
+<section class="order-form py-5 mb-4">
+  <div class="container">
+    <h2 class="police1 text-center text-light mb-4 ">
+      Passer une commande
+    </h2>
+    <form>
+      <div class="row">
+        <div class="col-md-6 col-sm">
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+            <input type="text" class="form-control" placeholder="Votre nom">
+          </div>
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-utesils"></i></label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>Choisir un menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-sort-numeric-up-alt"></i></label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>Nombre de personnes</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm">
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Votre email">
+            <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
+          </div>
+          <div class="input-group mb-3">
+            <input type="number" class="form-control" placeholder="Votre number phone">
+            <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone"></i></span>
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Votre adresse zone Ex:Goma-ville 55">
+            <span class="input-group-text" id="basic-addon1"><i class="fas fa-home"></i></span>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div class="row">
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Preciser le nombre de personne</span>
+        <input type="text" class="form-control" placeholder="Ex:25">
+      </div>
+      <div class="input-group">
+        <span class="input-group-text">Autres infos</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end section form -->
+<!-- start section endpage -->
+<section class="endpage py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 ">
+        <h2 class="police2  text-dark px-2">les Restaurant</h2>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+      </div>
+      <div class="col-md-3">
+        <h2 class="police2  text-dark px-2">les Restaurant</h2>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3 ">
+        <h2 class="police2  text-dark px-2">les Restaurant</h2>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3 ">
+        <h2 class="police2  text-dark px-2">les Restaurant</h2>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- end section endpage -->
+<!-- Start du lien java script -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- End du lien java script -->
+
+</html>
